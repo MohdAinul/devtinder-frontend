@@ -108,7 +108,7 @@ const EditProfile = ({ user }) => {
                     </div>
                     <ul
                       tabIndex={0}
-                      className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+                      className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow"
                     >
                       <li>
                         <button onClick={() => setGender("Male")}>Male</button>
