@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addConnection, removeConnection } from "../utils/conectionSlice";
 
 const Connections = () => {
-  const connections = useSelector((store) => store.connection);
+  const connections = useSelector((store) => store.connections);
   console.log(connections);
   const dispatch = useDispatch();
 

@@ -1,12 +1,12 @@
 import axios from "axios";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BASE_URL } from "../utils/constants";
 import { useDispatch, useSelector } from "react-redux";
 import { addRequests, removeRequest } from "../utils/requestSlice";
 
 const Requests = () => {
   const dispatch = useDispatch();
-  const requests = useSelector((store) => store.request);
+  const requests = useSelector((store) => store.requests);
   console.log(requests);
 
   const reviewRequest = async (status, _id) => {
@@ -34,7 +34,7 @@ const Requests = () => {
     }
   };
 
-  useState(() => {
+  useEffect(() => {
     fetchRequests();
   }, []);
   if (!requests) return;
