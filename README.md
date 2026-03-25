@@ -4,6 +4,8 @@
 
 - Backend: https://github.com/MohdAinul/devtinder-backend
 
+# DevTinder Frontend
+
 A full-stack developer matchmaking platform inspired by Tinder, built using the MERN stack. Users can create profiles, connect with other developers, and manage connection requests in a clean and interactive UI.
 
 ---
