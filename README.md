@@ -54,6 +54,12 @@ A full-stack developer matchmaking platform inspired by Tinder, built using the 
 
 ---
 
+### Real Time Chat using Websocket(socket.io)
+
+- Build the UI for a chat window on /chat/:targetUserId
+- setup socket.io in backend
+- npm install socket.io
+
 ## 🛠 Tech Stack
 
 ### Frontend
