@@ -122,14 +122,6 @@ const EditProfile = ({ user }) => {
 
               {loading && <p>Uploading...</p>}
 
-              {/* {photoUrl && (
-                <img
-                  src={photoUrl}
-                  className="w-24 h-24 rounded-full my-2"
-                  alt="preview"
-                />
-              )} */}
-
               <select
                 value={gender}
                 onChange={(e) => setGender(e.target.value)}
